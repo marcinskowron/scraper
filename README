@@ -1,0 +1,9 @@
+#From project's folder:
+#1. Build image with:
+        docker build -t scraper .
+#2. Run container with:
+        docker run -p 8000:8000 --name scraper_container scraper
+#3. To test web api, access address:
+        http://localhost:8000/docs
+#4. To test through CLI:
+        python ./scraper.py https://www.w3schools.com/tags/tag_meta.asp
