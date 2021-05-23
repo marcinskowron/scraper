@@ -6,4 +6,7 @@
 #3. To test web api, access address:
         http://localhost:8000/docs
 #4. To test through CLI:
+        python -m venv venv
+        source ./venv/bin/activate
+        pip3 install -r requirements.txt
         python ./scraper.py https://www.w3schools.com/tags/tag_meta.asp
